@@ -1,0 +1,6 @@
+{
+  "name": "Atomic Heart Polymer",
+  "description": "A minimalist hero section for Atomic Heart featuring the Polymer section on a black background.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
