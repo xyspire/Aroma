@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { drawFrame } from "../lib/utils";
-import { FRAME_COUNT, SCROLL_MULTIPLIER } from "../lib/constants";
+import { FRAME_COUNT, HERO_SCROLL_MULTIPLIER } from "../lib/constants";
 
 export function HeroSection({ onLoaded }: { onLoaded?: () => void }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -85,7 +85,7 @@ export function HeroSection({ onLoaded }: { onLoaded?: () => void }) {
     <div
       ref={heroRef}
       className="relative w-full"
-      style={{ height: `${SCROLL_MULTIPLIER * 100}vh` }}
+      style={{ height: `${HERO_SCROLL_MULTIPLIER * 100}vh` }}
     >
       {/* Sticky viewport — canvas + all hero UI lives here */}
       <div className="sticky top-0 w-full h-screen overflow-hidden bg-white">

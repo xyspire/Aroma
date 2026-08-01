@@ -1,6 +1,7 @@
-export const FRAME_COUNT = 62;
+export const FRAME_COUNT = 32;
 export const FRAME_COUNT_2 = 180;
 export const SCROLL_MULTIPLIER = 4; // animation sections will be 4× viewport tall
+export const HERO_SCROLL_MULTIPLIER = 2; // specific shorter scroll for hero section
 
 export const LEFT_PRODUCTS = [
   { title: "Velvet Rose", price: "$89.90", rating: 4.8, seed: "velvetrose" },
